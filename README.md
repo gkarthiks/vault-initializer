@@ -2,6 +2,8 @@
 
 **Vault Initializer** is a hacky way of obtaining HA of Vault service deployed with *Consul* as a storage backend. This is deployed as a deployment in kubernetes alongside the same namespace where the Vault pods are running. This is necessary as the *vault initializer* uses the pod's native IP address to directly communicate and makes the HA.
 
+![](vault-initializer.png)
+
 ## Pre-requisite
 There are few pre-requisites needed for this deployment to work properly. This service needs a config-map with certain values in a pre-defined format. The sample config map looks like
 
