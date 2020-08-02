@@ -95,3 +95,6 @@ The definition and usage of each field is tabulated below.
 | 7. | secretShares | used to define the total number of secret shares to be initialized | 5 |
 | 8. | secretThreshold | used to define how many keys should make the master key in shamir's algo | 3 |
 | 9. | serviceWaitTimeInSeconds | used to define the default wait time for the services | 3 |
+
+## What's Next
+After the Initializer, you need the load balancer for the vault pods. To know more on how to use Vault Initializer and Vault Load Balancer head over to this [How to make Vault Highly Available on NFS](https://medium.com/@github.gkarthiks/how-to-make-opensource-vault-highly-available-on-nfs-5af0c68070d8) article on Medium.
