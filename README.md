@@ -1,4 +1,11 @@
 # Vault Initializer
+![Build Type](https://img.shields.io/docker/cloud/automated/gkarthics/vault-initializer.svg)
+![Build Status](https://img.shields.io/docker/cloud/build/gkarthics/vault-initializer.svg)
+![Release](https://img.shields.io/github/tag-date/gkarthiks/vault-initializer.svg?color=Orange&label=Latest%20Release)
+![Pulls](https://img.shields.io/docker/pulls/gkarthics/vault-initializer.svg)
+![language](https://img.shields.io/badge/Language-go-blue.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gkarthiks/vault-initializer)](https://goreportcard.com/report/github.com/gkarthiks/vault-initializer)
+![License](https://img.shields.io/github/license/gkarthiks/vault-initializer.svg)
 
 **Vault Initializer** is a hacky way of obtaining HA of Vault service deployed with *Consul* as a storage backend. This is deployed as a deployment in kubernetes alongside the same namespace where the Vault pods are running. This is necessary as the *vault initializer* uses the pod's native IP address to directly communicate and makes the HA.
 
